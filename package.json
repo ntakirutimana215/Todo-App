@@ -1,0 +1,35 @@
+{
+  "name": "data-test",
+  "version": "1.0.0",
+  "description": "ghhchgc",
+  "main": "app.js",
+  "scripts": {
+    "dev": "tsc && nodemon dist/app.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Ange",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.11.30",
+    "@types/supertest": "^6.0.2",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.2"
+  }
+}
